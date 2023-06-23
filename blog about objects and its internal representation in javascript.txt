@@ -1,0 +1,22 @@
+Introduction:
+
+JavaScript objects are powerful data structures used to organize and represent data. In this blog, we will explore how objects are internally represented in JavaScript, including their properties, methods, and underlying mechanisms.
+
+Understanding Objects in JavaScript:
+
+JavaScript objects consist of key-value pairs and can store various data types, including primitives, objects, and functions. Objects are reference types and are accessed and stored by reference rather than by value.
+Properties and Methods:
+
+Objects have properties, which are variables associated with the object, and methods, which are functions associated with the object. Properties represent attributes, while methods enable objects to perform actions.
+
+Internal Representation of Objects:
+
+Internally, JavaScript objects are unordered collections of key-value pairs stored as hash tables. Each object is assigned a unique identifier used as an index in the hash table. Hidden classes optimize property access and method invocation, improving performance.
+
+Property Access and Mutation:
+
+To access a property, JavaScript engines perform a lookup in the object’s internal hash table based on the property name. When updating or adding properties, the engine locates the property and makes the necessary modifications.
+
+Conclusion:
+
+Understanding the internal representation of objects in JavaScript is crucial for efficient coding. Objects are represented as hash tables with unique identifiers, and hidden classes optimize property access. By grasping these concepts, developers can harness the full potential of objects in their JavaScript projects.
